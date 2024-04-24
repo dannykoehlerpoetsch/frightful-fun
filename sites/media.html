@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A Website about Halloween" />
+    <meta name="author" content="Danny Köhler-Poetsch" />
+    <!-- Normalize Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <!-- Google Fonts Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Berkshire+Swash&family=Creepster&family=Finger+Paint&family=Honk&family=Imbue:opsz,wght@10..100,100..900&family=Kranky&family=Montez&family=Mountains+of+Christmas:wght@400;700&family=Protest+Revolution&family=Rampart+One&family=Reenie+Beanie&family=Road+Rage&family=Rubik+Dirt&family=Rubik+Doodle+Shadow&family=Shadows+Into+Light&family=Zeyada&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font-Awesome Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- Favicon Fledermaus -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="../images/favicon_io/favicon-32x32.png"
+    />
+    <title>Frightful Fun: Your Destination for Halloween Magic</title>
+  </head>
+  <body>
+    <div class="content-container">
+      <header>
+        <figure class="header_image_left">
+          <img src="../images/decoration/skull-pumpkin.png" alt="" />
+        </figure>
+        <input type="checkbox" id="menuToggle" />
+        <label for="menuToggle"><i class="fa-solid fa-bars fa-2x"></i></label>
+        <nav class="header__nav">
+          <label for="menuToggle"
+            ><i class="fa-solid fa-circle-xmark fa-2x"></i
+          ></label>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li class="header__nav__dropdown">
+              <a href="./halloween.html">Halloween</a>
+              <ul class="header__nav__submenu">
+                <li><a href="./halloween.html#geschichte">Geschichte</a></li>
+                <li><a href="./halloween.html#costume">Kostüme</a></li>
+              </ul>
+            </li>
+            <li class="header__nav__dropdown">
+              <a class="nav_active" href="./media.html">Media</a>
+              <ul class="header__nav__submenu">
+                <li><a href="#movies">Filme</a></li>
+                <li><a href="#music">Musik</a></li>
+              </ul>
+            </li>
+            <li><a href="./shop.html">Shop</a></li>
+            <li><a class="header__nav__login" href="./login.html">Login</a></li>
+          </ul>
+        </nav>
+        <figure class="header_image_right">
+          <img src="../images/decoration/skull-pumpkin.png" alt="" />
+        </figure>
+        <div class="sounds">
+          <audio
+            src="../images/haunted-house-ambience-21831.mp3"
+            controls
+            preload="none"
+            title="Halloween Sounds"
+          ></audio>
+          <span>Sound? Sound!</span>
+        </div>
+      </header>
+      <main>
+        <div class="hero_video" id="top">
+          <h1>Filme und Musik</h1>
+          <h2>Komm mit <span>Frightful Fun</span> in die richtige Stimmung!</h2>
+          <iframe
+            src="https://www.youtube.com/embed/Uuw1sV8RWuE?si=Mb5ZNrz9ehOfnlYx&amp;start=9"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <span>Szene aus dem Film "Hocus Pocus"</span>
+          <p>
+            Was bringt einen besser in Stimmung als die richtige Musik oder der
+            richtige Film?
+          </p>
+        </div>
+
+        <!-- Filme -->
+        <section class="movies">
+          <h2 id="movies">Filme</h2>
+          <h3>
+            Hier eine kleine Auswahl an Filmen, die du sehen solltest um in die
+            richtige Halloween Stimmung zu kommen
+          </h3>
+          <article class="movie_wrapper">
+            <figure class="image_wrapper">
+              <img
+                src="../images/movies/blairwitch-movie.jpg"
+                alt="Filmposter"
+                loading="lazy"
+              />
+              <figcaption>The Blairwitch Project</figcaption>
+            </figure>
+            <div class="movie_content">
+              <p>
+                Bei "The Blair Witch Project" erwartet den Zuschauer ein
+                intensives und einzigartiges Kinoerlebnis, das auf die
+                Darstellung eines gefundenen Filmmaterials (Found Footage)
+                setzt. Der Film ist eine Mischung aus Horror, Spannung und
+                Nervenkitzel, und zeichnet sich durch seine realistische und
+                immersive Erzählweise aus. Die Handlung folgt drei
+                Filmstudenten, die in den Wäldern von Maryland eine
+                Dokumentation über die Legende der Blair Witch drehen und dabei
+                spurlos verschwinden. Insgesamt ist "The Blair Witch Project"
+                ein wegweisender Film im Horror-Genre, der für seine innovative
+                Erzählweise und seine fesselnde Atmosphäre bekannt ist.
+              </p>
+              <a
+                href="https://www.werstreamt.es/"
+                target="_blank"
+                title="jetzt ansehen"
+                >Jetzt Ansehen!</a
+              >
+            </div>
+          </article>
+          <article class="movie_wrapper">
+            <figure class="image_wrapper">
+              <img
+                src="../images/movies/friday13-movie.jpg"
+                alt="Filmposter"
+                loading="lazy"
+              />
+              <figcaption>Freitag, der 13.</figcaption>
+            </figure>
+            <div class="movie_content">
+              <p>
+                "Freitag, der 13." ist ein ikonischer Horrorfilm aus dem Jahr
+                1980, der als einer der prägendsten Filme des Slasher-Genres
+                gilt. Der Film wurde von Sean S. Cunningham produziert und
+                regiert und gilt als der erste Teil einer erfolgreichen
+                Filmreihe. Der Film spielt am Camp Crystal Lake, einem
+                Sommercamp, das aufgrund eines tragischen Vorfalls in der
+                Vergangenheit geschlossen wurde. Als das Camp wiedereröffnet
+                wird, beginnt eine Serie von Morden, bei denen die Betreuer des
+                Camps nacheinander brutal getötet werden.
+              </p>
+              <a
+                href="https://www.werstreamt.es/"
+                target="_blank"
+                title="jetzt ansehen"
+                >Jetzt Ansehen!</a
+              >
+            </div>
+          </article>
+          <article class="movie_wrapper">
+            <figure class="image_wrapper">
+              <img
+                src="../images/movies/halloween-movie.jpg"
+                alt="Filmposter"
+                loading="lazy"
+              />
+              <figcaption>Halloween</figcaption>
+            </figure>
+            <div class="movie_content">
+              <p>
+                "Halloween" ist ein Horrorfilm aus dem Jahr 1978, der von John
+                Carpenter inszeniert wurde. Der Film erzählt die Geschichte von
+                Michael Myers, einem psychopathischen Killer, der aus einer
+                psychiatrischen Anstalt entkommt und in seine Heimatstadt
+                zurückkehrt. An Halloween beginnt er eine brutale Mordserie, bei
+                der er junge Menschen ins Visier nimmt. Der Film folgt Laurie
+                Strode, einer jungen Babysitterin, die versucht, sich und die
+                Kinder, die sie betreut, vor Myers' Angriffen zu schützen.
+                Während Laurie und ihre Freunde den schrecklichen Ereignissen in
+                der Stadt ausgesetzt sind, wird sie von dem mysteriösen Mörder
+                gejagt. Der Film besticht durch seine bedrohliche Atmosphäre,
+                seine spannungsgeladene Handlung und das ikonische Musikthema.
+                "Halloween" ist ein Klassiker des Slasher-Genres und hat sich im
+                Laufe der Jahre einen Kultstatus erworben.
+              </p>
+              <a
+                href="https://www.werstreamt.es/"
+                target="_blank"
+                title="jetzt ansehen"
+                >Jetzt Ansehen!</a
+              >
+            </div>
+          </article>
+          <article class="movie_wrapper">
+            <figure class="image_wrapper">
+              <img
+                src="../images/movies/halloweentown-movie.jpg"
+                alt="Filmposter"
+                loading="lazy"
+              />
+              <figcaption>Halloween Town</figcaption>
+            </figure>
+            <div class="movie_content">
+              <p>
+                "Halloweentown" ist ein Disney Channel-Film aus dem Jahr 1998,
+                der eine Mischung aus Fantasy und Abenteuer bietet. Der Film
+                erzählt die Geschichte von Marnie Piper, einem jungen Mädchen,
+                das herausfindet, dass sie und ihre Familie Hexen sind. Marnies
+                Großmutter Aggie besucht die Familie an Halloween und erzählt
+                von einer magischen Stadt namens Halloweentown, in der Hexen,
+                Zauberer und andere magische Wesen in Harmonie zusammenleben.
+                Marnie und ihre Geschwister, Dylan und Sophie, folgen ihrer
+                Großmutter heimlich nach Halloweentown und entdecken eine Welt
+                voller magischer Kreaturen und Zauberei. Doch Halloweentown
+                steht vor einer Gefahr: Eine dunkle Macht droht, die Stadt zu
+                übernehmen und ihre Bewohner zu zerstören. Marnie und ihre
+                Familie müssen zusammenarbeiten, um die Stadt vor der Bedrohung
+                zu schützen und das Böse zu besiegen. Der Film ist eine
+                herzerwärmende Geschichte über Familie, Freundschaft und die
+                Entdeckung eigener Fähigkeiten, eingebettet in eine
+                fantasievolle und magische Welt. "Halloweentown" hat sich zu
+                einem beliebten Klassiker für Halloween entwickelt und ist
+                besonders bei Familien beliebt.
+              </p>
+              <a
+                href="https://www.werstreamt.es/"
+                target="_blank"
+                title="jetzt ansehen"
+                >Jetzt Ansehen!</a
+              >
+            </div>
+          </article>
+          <article class="movie_wrapper">
+            <figure class="image_wrapper">
+              <img
+                src="../images/movies/hocuspocus-movie.jpg"
+                alt="Filmposter"
+                loading="lazy"
+              />
+              <figcaption>Hocus Pocus</figcaption>
+            </figure>
+            <div class="movie_content">
+              <p>
+                "Hocus Pocus" ist eine unterhaltsame und beliebte Disney-Komödie
+                aus dem Jahr 1993, die von einer Gruppe Hexen und einer
+                unwahrscheinlichen Gruppe von Kindern handelt. Der Film spielt
+                in der Stadt Salem, Massachusetts, und kombiniert Elemente von
+                Fantasy und Abenteuer. Die Handlung beginnt im Jahr 1693, als
+                die Sanderson-Schwestern, drei böse Hexen namens Winifred, Mary
+                und Sarah, versuchen, mit einem Zauber die Jugend von Kindern zu
+                stehlen, um ewig jung zu bleiben. Ihre Pläne werden vereitelt,
+                und die Schwestern werden hingerichtet. Doch vor ihrem Tod
+                sprechen sie einen Fluch aus, der sie wieder zum Leben erwecken
+                wird, wenn eine Jungfrau ihre Kerze mit der schwarzen Flamme
+                entzündet. In der Gegenwart, am Halloween-Abend, entdeckt der
+                junge Max Dennison die schwarze Flammenkerze und entzündet sie
+                versehentlich, was dazu führt, dass die Sanderson-Schwestern
+                wiedererweckt werden. Nun müssen Max, seine Schwester Dani und
+                seine Freundin Allison die Stadt vor den bösartigen Plänen der
+                Hexen schützen. Der Film ist bekannt für seine humorvollen
+                Momente, die charismatischen Darbietungen der
+                Hauptdarstellerinnen (Bette Midler, Sarah Jessica Parker und
+                Kathy Najimy) und seine charmante Halloween-Atmosphäre. "Hocus
+                Pocus" ist zu einem Kultklassiker geworden und wird oft als
+                Halloween-Favorit angesehen.
+              </p>
+              <a
+                href="https://www.werstreamt.es/"
+                target="_blank"
+                title="jetzt ansehen"
+                >Jetzt Ansehen!</a
+              >
+            </div>
+          </article>
+          <article class="movie_wrapper">
+            <figure class="image_wrapper">
+              <img
+                src="../images/movies/nightmareonelmstreet-movie.webp"
+                alt="Filmposter"
+                loading="lazy"
+              />
+              <figcaption>Nightmare on Elm Street</figcaption>
+            </figure>
+            <div class="movie_content">
+              <p>
+                "Nightmare on Elm Street" ist ein klassischer Horrorfilm aus dem
+                Jahr 1984, der von Wes Craven geschrieben und inszeniert wurde.
+                Der Film erzählt die Geschichte einer Gruppe von Teenagern in
+                einer Vorstadtgemeinde, die von Albträumen heimgesucht werden,
+                in denen sie von einem unheimlichen, verbrannten Mann mit einem
+                Handschuh voller Klingen, bekannt als Freddy Krueger, verfolgt
+                werden. Die Teenager müssen erkennen, dass die Verletzungen und
+                Tode, die sie in ihren Träumen erleiden, auch in der Realität
+                passieren. Nancy Thompson, eine der Jugendlichen, versucht,
+                Freddy zu stoppen und die Verbindung zwischen den Albträumen und
+                seiner mysteriösen Vergangenheit zu finden. Der Film kombiniert
+                psychologischen Horror mit übernatürlichen Elementen und wurde
+                zu einem wegweisenden Werk im Horror-Genre. Freddy Krueger ist
+                zu einer ikonischen Figur der Popkultur geworden.
+              </p>
+              <a
+                href="https://www.werstreamt.es/"
+                target="_blank"
+                title="jetzt ansehen"
+                >Jetzt Ansehen!</a
+              >
+            </div>
+          </article>
+          <article class="movie_wrapper">
+            <figure class="image_wrapper">
+              <img
+                src="../images/movies/thecrow.jpg"
+                alt="Filmposter"
+                loading="lazy"
+              />
+              <figcaption>The Crow</figcaption>
+            </figure>
+            <div class="movie_content">
+              <p>
+                "The Crow" ist ein düsterer Fantasy-Actionfilm aus dem Jahr
+                1994, der von Alex Proyas inszeniert wurde und auf der
+                gleichnamigen Graphic Novel basiert. Der Film erzählt die
+                Geschichte von Eric Draven, einem Musiker, der nach seinem
+                gewaltsamen Tod durch eine mysteriöse Krähe wieder zum Leben
+                erweckt wird. Mit besonderen Kräften ausgestattet, begibt er
+                sich auf eine Rachemission gegen diejenigen, die ihm und seiner
+                Verlobten Unrecht getan haben. Der Film ist bekannt für seine
+                visuelle Ästhetik und die eindringliche Darstellung von Brandon
+                Lee. "The Crow" hat sich zu einem Kultklassiker entwickelt.
+              </p>
+              <a
+                href="https://www.werstreamt.es/"
+                target="_blank"
+                title="jetzt ansehen"
+                >Jetzt Ansehen!</a
+              >
+            </div>
+          </article>
+          <article class="movie_wrapper">
+            <figure class="image_wrapper">
+              <img
+                src="../images/movies/scream-movie.jpg"
+                alt="Filmposter"
+                loading="lazy"
+              />
+              <figcaption>SCREAM</figcaption>
+            </figure>
+            <div class="movie_content">
+              <p>
+                "Scream" ist ein Horrorfilm aus dem Jahr 1996, der von Wes
+                Craven inszeniert und von Kevin Williamson geschrieben wurde.
+                Der Film folgt einer Gruppe von Teenagern in der Kleinstadt
+                Woodsboro, die von einem maskierten Mörder heimgesucht werden.
+                Der Mörder benutzt Anrufe, um seine Opfer zu terrorisieren, und
+                spielt dabei mit den Regeln und Klischees des Horror-Genres. Die
+                Hauptfigur ist Sidney Prescott, eine Highschool-Schülerin, die
+                ins Zentrum der mysteriösen Vorfälle gerät. Sie versucht, den
+                Mörder zu entlarven und gleichzeitig ihren Alltag und ihre
+                Sicherheit aufrechtzuerhalten. "Scream" kombiniert Spannung,
+                Horror und eine Prise Humor, indem er die üblichen Tropen des
+                Genres hinterfragt und eine frische, moderne Herangehensweise an
+                die Handlung bietet. Der Film gilt als wegweisend für die
+                Wiederbelebung des Horror-Genres in den 1990er Jahren und wurde
+                für seine originelle Handlung und unvorhersehbaren Wendungen
+                bekannt. "Scream" führte zu einer erfolgreichen Filmreihe und
+                prägte eine neue Generation von Horrorfilmen.
+              </p>
+              <a
+                href="https://www.werstreamt.es/"
+                target="_blank"
+                title="jetzt ansehen"
+                >Jetzt Ansehen!</a
+              >
+            </div>
+          </article>
+          <article class="movie_wrapper">
+            <figure class="image_wrapper">
+              <img
+                src="../images/movies/movie-collage-classics.webp"
+                alt="Filmposter"
+                loading="lazy"
+              />
+              <figcaption>Die Klassiker</figcaption>
+            </figure>
+            <div class="movie_content">
+              <p>
+                Klassische Horrorfilme wie Dracula, The Mummy und Creature from
+                the Black Lagoon gehören zu den prägendsten und bekanntesten
+                Werken des Horror-Genres, insbesondere aus den 1930er bis 1950er
+                Jahren. Diese Filme haben ikonische Monsterfiguren eingeführt
+                und beeinflussen bis heute moderne Horrorfilme. Diese
+                klassischen Horrorfilme sind bekannt für ihre atmosphärische
+                Inszenierung, ihre ikonischen Monster und die Einführung des
+                Gothic-Horror-Stils. Sie haben eine Ära der Filmgeschichte
+                geprägt und dienen weiterhin als Inspirationsquelle für moderne
+                Horrorgeschichten. Die Kombination aus Spannung, Grusel und
+                faszinierenden Kreaturen macht diese Filme zu zeitlosen
+                Klassikern.
+              </p>
+              <a
+                href="https://www.werstreamt.es/"
+                target="_blank"
+                title="jetzt ansehen"
+                >Jetzt Ansehen!</a
+              >
+            </div>
+          </article>
+
+          <a href="#top"><i class="fa-regular fa-circle-up fa-2x"></i></a>
+        </section>
+
+        <!-- Bands -->
+        <section class="bands">
+          <h2 id="music">Musik</h2>
+          <h3>
+            Du suchst nach passender musikalischer Untermalung? Hier stelle ich
+            dir 3 Bands vor, die dich garantiert in Halloween Stimmung bringen!
+          </h3>
+          <!-- blitzkid -->
+          <article class="band_wrapper">
+            <h3>Blitzkid</h3>
+            <figure class="hero_image">
+              <img
+                src="../images/bands/blitzkid.jpg"
+                alt="Bandfoto"
+                loading="lazy"
+              />
+              <figcaption>Blitzkid</figcaption>
+            </figure>
+            <section class="bandinfo">
+              <p>
+                Blitzkid war eine amerikanische Horror-Punk-Band, die 1997 in
+                Bluefield, West Virginia, gegründet wurde. Die Band bestand aus
+                den Mitgliedern TB Monstrosity (Tracy Byrd), Ghoulsby (Steven
+                Matthews) und verschiedenen wechselnden Mitgliedern im Laufe der
+                Zeit. Blitzkid wurde für ihren einzigartigen Musikstil bekannt,
+                der Elemente aus Horror-Punk, Psychobilly und traditionellen
+                Punkrock-Sounds miteinander kombinierte.
+              </p>
+              <p>
+                Die Band mischte klassische Punk-Rock-Klänge mit düsteren,
+                gruseligen Themen und Horror-Elementen, einschließlich düsterer
+                Texte und visueller Ästhetik, die von Horrorfilmen und
+                Gothic-Kultur inspiriert waren.
+              </p>
+              <p>
+                Die Band löste sich 2012 auf, und die Mitglieder verfolgten
+                verschiedene andere musikalische Projekte. Sie haben jedoch auch
+                gelegentlich wieder zusammengefunden und live gespielt. Blitzkid
+                hatte eine bedeutende Wirkung auf die Horror-Punk-Szene und wird
+                von Fans des Genres als eine der wichtigsten Bands in diesem
+                Bereich angesehen.
+              </p>
+              <audio
+                src="../images/bands/Terror in the Haunted House.mp3"
+                controls
+                preload="none"
+                title="Blitzkid - Terror in the haunted house"
+              ></audio>
+              <span>Blitzkid - Terror in the haunted house</span>
+              <a
+                href="https://www.youtube.com/@BLITZKID"
+                target="_blank"
+                title="Bei Youtube anhören"
+                ><i class="fa-brands fa-youtube fa-2x"></i
+              ></a>
+            </section>
+          </article>
+          <!-- misfits -->
+          <article class="band_wrapper">
+            <h3>Misfits</h3>
+            <figure class="hero_image">
+              <img
+                src="../images/bands/misfits.jpg"
+                alt="Bandfoto"
+                loading="lazy"
+              />
+              <figcaption>Misfits</figcaption>
+            </figure>
+            <section class="bandinfo">
+              <p>
+                Die Misfits sind eine amerikanische Punkrock-Band, die 1977 in
+                Lodi, New Jersey, gegründet wurde. Sie sind eine der
+                bekanntesten und einflussreichsten Bands des Horror-Punk-Genres
+                und haben einen einzigartigen Stil entwickelt, der Elemente aus
+                Punkrock und Horrorfilmen kombiniert. Die Band wurde von Sänger
+                Glenn Danzig und Bassist Jerry Only gegründet.
+              </p>
+              <p>
+                Die Misfits sind bekannt für ihre Mischung aus schnellen,
+                melodischen Punkrock-Riffs und düsteren, gruseligen Texten, die
+                oft von Horrorfilmen, Science-Fiction und Gothic-Kultur
+                inspiriert sind.
+              </p>
+              <p>
+                Die Misfits bleiben bis heute eine Kultband und haben eine treue
+                Fangemeinde, die ihre Musik und ihren einzigartigen Stil
+                schätzt.
+              </p>
+              <audio
+                src="../images/bands/Misfits - 02 - The Forbidden Zone.mp3"
+                controls
+                preload="none"
+                title="Misfits - The forbidden Zone"
+              ></audio>
+              <span>Misfits - The forbidden Zone</span>
+              <a
+                href="https://www.youtube.com/channel/UCUAa1fv7JsIFuBUWtH0ZaOA"
+                target="_blank"
+                title="Bei Youtube anhören"
+                ><i class="fa-brands fa-youtube fa-2x"></i
+              ></a>
+            </section>
+          </article>
+          <!-- zombina -->
+          <article class="band_wrapper">
+            <h3>
+              Zombina <br />
+              and the <br />Skeletones
+            </h3>
+            <figure class="hero_image">
+              <img
+                src="../images/bands/zombina.jpeg"
+                alt="Bandfoto"
+                loading="lazy"
+              />
+              <figcaption>Zombina and the Skeletones</figcaption>
+            </figure>
+            <section class="bandinfo">
+              <p>
+                Zombina and the Skeletones ist eine britische Horror-Punk-Band
+                aus Liverpool, die seit ihrer Gründung im Jahr 2008 aktiv ist.
+                Die Band ist bekannt für ihren einzigartigen Stil, der Elemente
+                von Horror-Punk, Psychobilly und Garage Rock miteinander
+                kombiniert. Ihre Musik ist oft beeinflusst von Horrorfilmen,
+                Science-Fiction und der Gothic-Kultur.
+              </p>
+              <p>
+                Die Band vermischt schnelle, eingängige Melodien mit düsteren,
+                humorvollen Texten und Themen, die sich um Monster, Zombies,
+                Vampire und andere übernatürliche Kreaturen drehen. Ihre Musik
+                wird oft als energiegeladen und unterhaltsam beschrieben.
+              </p>
+              <p>
+                Insgesamt ist Zombina and the Skeletones eine beliebte Band in
+                der Horror-Punk-Szene, die für ihre kreative Mischung aus Musik
+                und gruseligen Themen geschätzt wird.
+              </p>
+              <audio
+                src="../images/bands/11 - Nobody likes you (when you're dead).mp3"
+                controls
+                preload="none"
+                title="Zombina & the Skeletones - Nobody likes you (when you're
+                dead)"
+              ></audio>
+              <span
+                >Zombina & the Skeletones - Nobody likes you (when you're
+                dead)</span
+              >
+              <a
+                href="https://www.youtube.com/@ZATStube"
+                target="_blank"
+                title="Bei Youtube anhören"
+                ><i class="fa-brands fa-youtube fa-2x"></i
+              ></a>
+            </section>
+          </article>
+          <a href="#top"><i class="fa-regular fa-circle-up fa-2x"></i></a>
+        </section>
+        <div class="animationen">
+          <div class="animation-diagonal">
+            <img
+              src="../images/animation/ghost-diagonal.png"
+              alt="dunkler Geist"
+            />
+          </div>
+          <div class="animation-left-right">
+            <img
+              src="../images/animation/ghosts-left-right.png"
+              alt="heller Geist"
+            />
+          </div>
+          <div class="animation-down-up">
+            <img
+              src="../images/animation/ghost-up-down.png"
+              alt="heller Geist"
+            />
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="rechtliches">
+          <h4>Rechtliches</h4>
+          <div class="footer-links">
+            <a href="./contact.html#contact">Kontakt</a>
+            <a href="./contact.html#impressum">Impressum</a>
+          </div>
+        </div>
+        <div class="newsletter">
+          <h4>Newsletter</h4>
+          <form action="https://formspree.io/f/xwkgqyzz" method="post">
+            <label for="newsletter">Wohin darf die Brieftaube fliegen?</label>
+            <div class="form-input">
+              <input
+                type="email"
+                name="newsletter"
+                id="newsletter"
+                minlength="1"
+                placeholder="Email-Adresse"
+                required
+              />
+              <input type="submit" value="abonnieren" />
+            </div>
+          </form>
+        </div>
+        <div class="social-media">
+          <h4>Spooky Media</h4>
+          <div class="footer-links">
+            <a
+              href="https://www.facebook.com/?locale=de_DE"
+              target="_blank"
+              title="Facebook"
+              ><i class="fa-brands fa-facebook fa-xl"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              title="Instagram"
+              ><i class="fa-brands fa-square-instagram fa-xl"></i
+            ></a>
+            <a
+              href="https://www.tiktok.com/de-DE/"
+              target="_blank"
+              title="TikTok"
+              ><i class="fa-brands fa-tiktok fa-xl"></i
+            ></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

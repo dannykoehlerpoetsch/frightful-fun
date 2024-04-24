@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A Website about Halloween" />
+    <meta name="author" content="Danny Köhler-Poetsch" />
+    <!-- Normalize Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <!-- Google Fonts Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Berkshire+Swash&family=Creepster&family=Finger+Paint&family=Honk&family=Imbue:opsz,wght@10..100,100..900&family=Kranky&family=Montez&family=Mountains+of+Christmas:wght@400;700&family=Protest+Revolution&family=Rampart+One&family=Reenie+Beanie&family=Road+Rage&family=Rubik+Dirt&family=Rubik+Doodle+Shadow&family=Shadows+Into+Light&family=Zeyada&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font-Awesome Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- Favicon Fledermaus -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="../images/favicon_io/favicon-32x32.png"
+    />
+    <title>Frightful Fun: Your Destination for Halloween Magic</title>
+  </head>
+  <body>
+    <div class="content-container">
+      <header>
+        <figure class="header_image_left">
+          <img src="../images/decoration/skull-pumpkin.png" alt="Kürbiskopf" />
+        </figure>
+        <input type="checkbox" id="menuToggle" />
+        <label for="menuToggle"><i class="fa-solid fa-bars fa-2x"></i></label>
+        <nav class="header__nav">
+          <label for="menuToggle"
+            ><i class="fa-solid fa-circle-xmark fa-2x"></i
+          ></label>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li class="header__nav__dropdown">
+              <a href="./halloween.html">Halloween</a>
+              <ul class="header__nav__submenu">
+                <li><a href="./halloween.html#geschichte">Geschichte</a></li>
+                <li><a href="./halloween.html#costume">Kostüme</a></li>
+              </ul>
+            </li>
+            <li class="header__nav__dropdown">
+              <a href="./media.html">Media</a>
+              <ul class="header__nav__submenu">
+                <li><a href="./media.html#movies">Filme</a></li>
+                <li><a href="./media.html#music">Musik</a></li>
+              </ul>
+            </li>
+            <li><a class="nav_active" href="#">Shop</a></li>
+            <li><a class="header__nav__login" href="./login.html">Login</a></li>
+          </ul>
+        </nav>
+        <figure class="header_image_right">
+          <img src="../images/decoration/skull-pumpkin.png" alt="" />
+        </figure>
+        <div class="sounds">
+          <audio
+            src="../images/haunted-house-ambience-21831.mp3"
+            controls
+            preload="none"
+            title="Halloween Sounds"
+          ></audio>
+          <span>Sound? Sound!</span>
+        </div>
+      </header>
+      <main>
+        <section class="shop_container" id="top">
+          <section class="shop_header">
+            <h1>Frightful Fun - der Shop</h1>
+            <div class="shop_image">
+              <img src="../images/decoration/bat.png" alt="Fledermaus" />
+              <img src="../images/animation/zombie-green.png" alt="Zombies" />
+              <img src="../images/decoration/cat.png" alt="Katze" />
+            </div>
+            <h2>Unsere Topseller</h2>
+          </section>
+          <section class="product_gallery">
+            <div class="product_wrapper">
+              <figure class="product_image">
+                <img src="../images/products/product-1.avif" alt="Produkt" />
+              </figure>
+              <div class="product_content">
+                <h3>Cauldron XXL Mug</h3>
+
+                <span>€18,99</span>
+                <a href="./login.html" target="_blank" title="jetzt kaufen"
+                  >Jetzt kaufen</a
+                >
+              </div>
+            </div>
+            <div class="product_wrapper">
+              <figure class="product_image">
+                <img src="../images/products/product-2.avif" alt="Produkt" />
+              </figure>
+              <div class="product_content">
+                <h3>Spirits Cold Brew Cup</h3>
+
+                <span>€10,80</span>
+                <a href="./login.html" target="_blank" title="jetzt kaufen"
+                  >Jetzt kaufen</a
+                >
+              </div>
+            </div>
+            <div class="product_wrapper">
+              <figure class="product_image">
+                <img src="../images/products/product-3.avif" alt="Produkt" />
+              </figure>
+              <div class="product_content">
+                <h3>After Midnight Tea Cup</h3>
+
+                <span><s style="color: red">€45,00</s> €35,00</span>
+                <a href="./login.html" target="_blank" title="jetzt kaufen"
+                  >Jetzt kaufen</a
+                >
+              </div>
+            </div>
+            <div class="product_wrapper">
+              <figure class="product_image">
+                <img src="../images/products/product-4.webp" alt="Produkt" />
+              </figure>
+              <div class="product_content">
+                <h3>Circus Bathroom Set</h3>
+
+                <span><s style="color: red">€52,00</s> €27,00</span>
+                <a href="./login.html" target="_blank" title="jetzt kaufen"
+                  >Jetzt kaufen</a
+                >
+              </div>
+            </div>
+            <div class="product_wrapper">
+              <figure class="product_image">
+                <img
+                  src="https://eu.killstar.com/cdn/shop/files/CALISTA-BOOTS-SILVER-W-C_53ae6150-c06b-44e9-ac39-66efde573698_256x384_crop_center.jpg?v=1707131324"
+                  alt="Produkt"
+                />
+              </figure>
+              <div class="product_content">
+                <h3>Callisat Boots</h3>
+
+                <span>€115,00</span>
+                <a href="./login.html" target="_blank" title="jetzt kaufen"
+                  >Jetzt kaufen</a
+                >
+              </div>
+            </div>
+            <div class="product_wrapper">
+              <figure class="product_image">
+                <img
+                  src="https://eu.killstar.com/cdn/shop/files/FRIGHT-CLUB-LOAFER-W-B_70778265-3bda-4581-be37-e0036c1acdcc_500x.jpg?v=1707131326"
+                  alt="Produkt"
+                />
+              </figure>
+              <div class="product_content">
+                <h3>Frightclub Loafer</h3>
+
+                <span>€115,00</span>
+                <a href="./login.html" target="_blank" title="jetzt kaufen"
+                  >Jetzt kaufen</a
+                >
+              </div>
+            </div>
+            <div class="product_wrapper">
+              <figure class="product_image">
+                <img
+                  src="https://eu.killstar.com/cdn/shop/files/CASKET-OF-SORROW-MINI-BACKPACK-B_7de43e19-fa22-4d28-a342-4fcc4b514497_500x.jpg?v=1707138647"
+                  alt="Produkt"
+                />
+              </figure>
+              <div class="product_content">
+                <h3>Casket Backpack</h3>
+
+                <span>€48,00</span>
+                <a href="./login.html" target="_blank" title="jetzt kaufen"
+                  >Jetzt kaufen</a
+                >
+              </div>
+            </div>
+            <div class="product_wrapper">
+              <figure class="product_image">
+                <img
+                  src="https://eu.killstar.com/cdn/shop/files/Vamped-Up-Suitcase-F_500x.jpg?v=1696930421"
+                  alt="Produkt"
+                />
+              </figure>
+              <div class="product_content">
+                <h3>Vamped up Suitcase</h3>
+
+                <span><s style="color: red">€152,00</s> €138,00</span>
+                <a href="./login.html" target="_blank" title="jetzt kaufen"
+                  >Jetzt kaufen</a
+                >
+              </div>
+            </div>
+          </section>
+        </section>
+        <a href="#top"><i class="fa-regular fa-circle-up fa-2x"></i></a>
+
+        <div class="animationen">
+          <div class="animation-left-right">
+            <img
+              src="../images/animation/ghosts-left-right.png"
+              alt="heller Geist"
+            />
+          </div>
+          <div class="animation-down-up">
+            <img
+              src="../images/animation/ghost-up-down.png"
+              alt="heller Geist"
+            />
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="rechtliches">
+          <h4>Rechtliches</h4>
+          <div class="footer-links">
+            <a href="./contact.html#contact">Kontakt</a>
+            <a href="./contact.html#impressum">Impressum</a>
+          </div>
+        </div>
+        <div class="newsletter">
+          <h4>Newsletter</h4>
+          <form action="https://formspree.io/f/xwkgqyzz" method="post">
+            <label for="newsletter">Wohin darf die Brieftaube fliegen?</label>
+            <div class="form-input">
+              <input
+                type="email"
+                name="newsletter"
+                id="newsletter"
+                minlength="1"
+                placeholder="Email-Adresse"
+                required
+              />
+              <input type="submit" value="abonnieren" />
+            </div>
+          </form>
+        </div>
+        <div class="social-media">
+          <h4>Spooky Media</h4>
+          <div class="footer-links">
+            <a
+              href="https://www.facebook.com/?locale=de_DE"
+              target="_blank"
+              title="Facebook"
+              ><i class="fa-brands fa-facebook fa-xl"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              title="Instagram"
+              ><i class="fa-brands fa-square-instagram fa-xl"></i
+            ></a>
+            <a
+              href="https://www.tiktok.com/de-DE/"
+              target="_blank"
+              title="TikTok"
+              ><i class="fa-brands fa-tiktok fa-xl"></i
+            ></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

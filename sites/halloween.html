@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A Website about Halloween" />
+    <meta name="author" content="Danny Köhler-Poetsch" />
+    <!-- Normalize Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+
+    <!-- Google Fonts Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Berkshire+Swash&family=Creepster&family=Finger+Paint&family=Honk&family=Imbue:opsz,wght@10..100,100..900&family=Kranky&family=Montez&family=Mountains+of+Christmas:wght@400;700&family=Protest+Revolution&family=Rampart+One&family=Reenie+Beanie&family=Road+Rage&family=Rubik+Dirt&family=Rubik+Doodle+Shadow&family=Shadows+Into+Light&family=Zeyada&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font-Awesome Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- Favicon Fledermaus -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="../images/favicon_io/favicon-32x32.png"
+    />
+    <title>Frightful Fun: Your Destination for Halloween Magic</title>
+  </head>
+  <body>
+    <div class="content-container">
+      <header>
+        <figure class="header_image_left">
+          <img src="../images/decoration/skull-pumpkin.png" alt="" />
+        </figure>
+        <input type="checkbox" id="menuToggle" />
+        <label for="menuToggle"><i class="fa-solid fa-bars fa-2x"></i></label>
+        <nav class="header__nav">
+          <label for="menuToggle"
+            ><i class="fa-solid fa-circle-xmark fa-2x"></i
+          ></label>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li class="header__nav__dropdown">
+              <a class="nav_active" href="./halloween.html">Halloween</a>
+              <ul class="header__nav__submenu">
+                <li><a href="./halloween.html#geschichte">Geschichte</a></li>
+                <li><a href="./halloween.html#costume">Kostüme</a></li>
+              </ul>
+            </li>
+            <li class="header__nav__dropdown">
+              <a href="./media.html">Media</a>
+              <ul class="header__nav__submenu">
+                <li><a href="./media.html#movies">Filme</a></li>
+                <li><a href="./media.html#music">Musik</a></li>
+              </ul>
+            </li>
+            <li><a href="./shop.html">Shop</a></li>
+            <li><a class="header__nav__login" href="./login.html">Login</a></li>
+          </ul>
+        </nav>
+        <figure class="header_image_right">
+          <img src="../images/decoration/skull-pumpkin.png" alt="" />
+        </figure>
+        <div class="sounds">
+          <audio
+            src="../images/haunted-house-ambience-21831.mp3"
+            controls
+            preload="none"
+            title="Halloween Sounds"
+          ></audio>
+          <span>Sound? Sound!</span>
+        </div>
+      </header>
+      <main>
+        <div class="halloween_hero_image" id="top">
+          <img
+            src="../images/decoration/halloween-banner.png"
+            alt=""
+            loading="lazy"
+          />
+        </div>
+        <section class="geschichte" id="geschichte">
+          <div class="geschichte_content">
+            <h2>Woher kommt eigentlich Halloween?</h2>
+            <p>
+              Halloween hat eine lange und faszinierende Geschichte, die sich
+              über Jahrhunderte hinweg entwickelt hat. Die Ursprünge des Festes
+              liegen in den keltischen Traditionen und insbesondere im alten
+              keltischen Fest Samhain, das am 31. Oktober gefeiert wurde und den
+              Beginn des Winters markierte. Die Kelten glaubten, dass in der
+              Nacht zu Samhain die Grenze zwischen der Welt der Lebenden und der
+              Toten verschwamm. Dies ermöglichte es den Geistern, die Welt der
+              Lebenden zu besuchen.
+            </p>
+            <p>
+              Um sich vor den umherstreifenden Geistern zu schützen,
+              verkleideten sich die Menschen und entzündeten große Feuer, um
+              böse Geister fernzuhalten. Die Traditionen von Samhain wurden
+              später von den Römern beeinflusst, die ihre eigenen Feste wie
+              Feralia und das Fest zu Ehren der Göttin Pomona mit den keltischen
+              Bräuchen kombinierten.
+            </p>
+            <figure class="content-img">
+              <img
+                src="../images/trickortreat-1.jpg"
+                alt="süßes oder saures"
+                loading="lazy"
+              />
+              <figcaption>Trick 'r' Treat</figcaption>
+            </figure>
+            <p>
+              Mit der Ausbreitung des Christentums wurde der 1. November zum
+              Feiertag "Allerheiligen", und der Vorabend wurde als "All Hallows'
+              Eve" oder "All Hallows' Evening" bekannt. Im Laufe der Zeit wurde
+              dies zu "Halloween" verkürzt.
+            </p>
+            <p>
+              Im 19. Jahrhundert brachten irische Einwanderer Halloween in die
+              Vereinigten Staaten, wo es zu einem beliebten Feiertag wurde. Die
+              Traditionen entwickelten sich weiter und beinhalteten Elemente wie
+              das Schnitzen von Kürbissen (Jack-o'-Lanterns), das Verkleiden und
+              das "Trick-or-Treating" (Süßes oder Saures), bei dem Kinder in
+              Kostümen von Tür zu Tür gehen und nach Süßigkeiten fragen.
+            </p>
+            <figure class="content-img">
+              <img src="../images/halloween-deko.jpg" alt="" loading="lazy" />
+              <figcaption>Klassische Halloween-Dekoration</figcaption>
+            </figure>
+            <p>
+              Heute wird Halloween in vielen Ländern auf der ganzen Welt
+              gefeiert und ist zu einem festen Bestandteil der Popkultur
+              geworden. Es ist ein Tag, an dem Menschen jeden Alters die
+              Gelegenheit nutzen, sich zu verkleiden, sich zu amüsieren und die
+              gruselige Atmosphäre des Festes zu genießen. Die Geschichte von
+              Halloween ist eine Mischung aus alten Traditionen und modernen
+              Bräuchen, die dieses Fest zu einer einzigartigen und spannenden
+              Zeit des Jahres machen.
+            </p>
+            <p>
+              Salem, Massachusetts, ist eine Stadt mit einer tief verwurzelten
+              Geschichte im Zusammenhang mit Hexerei und den berühmten
+              Hexenprozessen von 1692. Diese Prozesse führten dazu, dass mehrere
+              Menschen aufgrund von Hexerei angeklagt und hingerichtet wurden.
+              Die Stadt hat seitdem diese düstere Geschichte zu ihrem Vorteil
+              genutzt und ist heute ein Zentrum für Halloween-Feierlichkeiten
+              und Hexentum.
+            </p>
+            <div class="iframe">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10833.182306306468!2d-70.88850954847165!3d42.52194373483724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3147bad9b146b%3A0x138b2c020d904b96!2sHexenhaus%20von%20Salem!5e0!3m2!1sde!2sde!4v1713876312669!5m2!1sde!2sde"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <p>
+              Jedes Jahr im Oktober zieht Salem Tausende von Touristen an, die
+              an den zahlreichen Veranstaltungen und Festivals rund um Halloween
+              teilnehmen möchten. Die Stadt ist bekannt für ihre historischen
+              Stätten, Hexenmuseen und Geschäfte, die sich auf Magie und
+              Okkultismus spezialisiert haben. Salem hat Halloween als Teil
+              seiner Identität und Kultur angenommen und bietet eine
+              einzigartige Atmosphäre, die die Menschen aus aller Welt anzieht.
+            </p>
+          </div>
+        </section>
+        <a href="#top"><i class="fa-regular fa-circle-up fa-2x"></i></a>
+        <section class="kostume">
+          <div class="kostume-content">
+            <h2 id="costume">Kostüme</h2>
+            <p>
+              Kostüme ermöglichen es den Menschen, für eine Nacht in eine andere
+              Rolle zu schlüpfen und ihrer Kreativität freien Lauf zu lassen.
+              Sie sind ein wichtiger Bestandteil der Halloween-Feiern und tragen
+              zur festlichen Atmosphäre bei. Egal, ob gruselig oder lustig, das
+              Tragen von Kostümen ist eine aufregende und unterhaltsame Art,
+              Halloween zu feiern und eine Verbindung zu den alten Traditionen
+              des Festes herzustellen.
+            </p>
+            <p>
+              Ursprünglich stammt die Tradition aus dem alten keltischen Fest
+              Samhain, das am 31. Oktober gefeiert wurde und den Übergang vom
+              Herbst zum Winter markierte. Die Kelten glaubten, dass in dieser
+              Nacht die Grenze zwischen der Welt der Lebenden und der Toten
+              verschwamm und Geister die Welt der Lebenden betreten konnten. Um
+              sich vor den umherstreifenden Geistern zu schützen, verkleideten
+              sich die Menschen in Tierhäute und Masken, um sich zu tarnen und
+              die Geister zu verwirren.
+            </p>
+          </div>
+          <section class="kostume-wrapper">
+            <h2>Bildgalerie</h2>
+            <div class="kostume-gallery">
+              <figure class="image-frame">
+                <img
+                  src="../images/costume/alonso-reyes-r88ePwPQJRM-unsplash.jpg"
+                  alt=""
+                  loading="lazy"
+                />
+                <figcaption>Dia de los Muertos</figcaption>
+              </figure>
+              <figure class="image-frame">
+                <img
+                  src="../images/costume/daniel-lincoln-dnr1jTz9sSs-unsplash.jpg"
+                  alt=""
+                  loading="lazy"
+                />
+                <figcaption>Joker</figcaption>
+              </figure>
+              <figure class="image-frame">
+                <img
+                  src="../images/costume/ilya-shishikhin-0vd4CdCRRLI-unsplash.jpg"
+                  alt=""
+                  loading="lazy"
+                />
+                <figcaption>Freddy Krueger</figcaption>
+              </figure>
+              <figure class="image-frame">
+                <img
+                  src="../images/costume/janko-ferlic-T43tMZ5jyzs-unsplash.jpg"
+                  alt=""
+                  loading="lazy"
+                />
+                <figcaption>Skelett</figcaption>
+              </figure>
+              <figure class="image-frame">
+                <img
+                  src="../images/costume/karsten-winegeart-IeT84oak7HQ-unsplash.jpg"
+                  alt=""
+                  loading="lazy"
+                />
+                <figcaption>Geisterhund</figcaption>
+              </figure>
+              <figure class="image-frame">
+                <img
+                  src="../images/costume/micky-white-1EhB0A23BiU-unsplash.jpg"
+                  alt=""
+                  loading="lazy"
+                />
+                <figcaption>Venezianisches Kostüm</figcaption>
+              </figure>
+              <figure class="image-frame">
+                <img
+                  src="../images/costume/raamin-ka-SDflevx9lqY-unsplash.jpg"
+                  alt=""
+                  loading="lazy"
+                />
+                <figcaption>Schneewitchen</figcaption>
+              </figure>
+              <figure class="image-frame">
+                <img
+                  src="../images/costume/vampire-1020962_640.jpg"
+                  alt=""
+                  loading="lazy"
+                />
+                <figcaption>Vampir</figcaption>
+              </figure>
+              <figure class="image-frame">
+                <img
+                  src="../images/costume/woman-4568736_640.jpg"
+                  alt=""
+                  loading="lazy"
+                />
+                <figcaption>Mumie</figcaption>
+              </figure>
+            </div>
+          </section>
+
+          <div class="kostume_links">
+            <h2>Kostüm Shops</h2>
+            <p>
+              Hinter den Links verstecken sich Shops, die garantiert das
+              richtige Kostüm für dich bereithalten!
+            </p>
+            <a
+              href="https://www.karneval-megastore.de/r-2891-kostueme/r-2996-halloween.html"
+              target="_blank"
+              >Karneval Megastore</a
+            >
+            <a href="https://www.horrorklinik.de/" target="_blank"
+              >Horrorklinik</a
+            >
+            <a href="https://www.horror-shop.com/" target="_blank"
+              >Horror-Shop</a
+            >
+            <a
+              href="https://www.maskworld.com/german/department/halloween"
+              target="_blank"
+              >Maskworld</a
+            >
+          </div>
+        </section>
+        <a href="#top"><i class="fa-regular fa-circle-up fa-2x"></i></a>
+        <div class="animationen">
+          <div class="animation-diagonal">
+            <img
+              src="../images/animation/ghost-diagonal.png"
+              alt="dunkler Geist"
+            />
+          </div>
+          <div class="animation-left-right">
+            <img
+              src="../images/animation/ghosts-left-right.png"
+              alt="heller Geist"
+            />
+          </div>
+          <div class="animation-down-up">
+            <img
+              src="../images/animation/ghost-up-down.png"
+              alt="heller Geist"
+            />
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="rechtliches">
+          <h4>Rechtliches</h4>
+          <div class="footer-links">
+            <a href="./contact.html#contact">Kontakt</a>
+            <a href="./contact.html#impressum">Impressum</a>
+          </div>
+        </div>
+        <div class="newsletter">
+          <h4>Newsletter</h4>
+          <form action="https://formspree.io/f/xwkgqyzz" method="post">
+            <label for="newsletter">Wohin darf die Brieftaube fliegen?</label>
+            <div class="form-input">
+              <input
+                type="email"
+                name="newsletter"
+                id="newsletter"
+                minlength="1"
+                placeholder="Email-Adresse"
+                required
+              />
+              <input type="submit" value="abonnieren" />
+            </div>
+          </form>
+        </div>
+        <div class="social-media">
+          <h4>Spooky Media</h4>
+          <div class="footer-links">
+            <a
+              href="https://www.facebook.com/?locale=de_DE"
+              target="_blank"
+              title="Facebook"
+              ><i class="fa-brands fa-facebook fa-xl"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              title="Instagram"
+              ><i class="fa-brands fa-square-instagram fa-xl"></i
+            ></a>
+            <a
+              href="https://www.tiktok.com/de-DE/"
+              target="_blank"
+              title="TikTok"
+              ><i class="fa-brands fa-tiktok fa-xl"></i
+            ></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
