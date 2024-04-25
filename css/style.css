@@ -889,7 +889,7 @@ main .kostume .kostume-wrapper .kostume-gallery {
   margin: 0 auto;
   display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 0.8em;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -920,7 +920,7 @@ main .kostume .kostume-wrapper .kostume-gallery .image-frame:hover {
   transition: all 0.3s linear;
 }
 main .kostume .kostume-wrapper .kostume-gallery .image-frame img {
-  max-width: 100%;
+  width: 100%;
   height: 90%;
   border-radius: 50%;
   -o-object-fit: cover;
